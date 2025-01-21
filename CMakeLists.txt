@@ -52,27 +52,20 @@ add_executable(client
         include/imgui_impl_dx11.h
         include/imgui_impl_osx.h
         include/imgui_impl_win32.h
-        include/state.hpp
         src/imgui.cpp
         src/imgui_draw.cpp
         src/imgui_tables.cpp
         src/imgui_widgets.cpp
         src/imgui_impl_opengl3.cpp
         src/imgui-SFML.cpp
-        src/gui.cpp
-        src/state.cpp
-        src/state_manager.cpp
-        include/state_manager.hpp
-        src/menu_state.cpp
-        include/menu_state.hpp
-        src/parallax_layer.cpp
-        include/parallax_layer.hpp
-        src/menu_background.cpp
-        include/menu_background.hpp
-        src/network_state.cpp
-        include/network_state.hpp
+        src/main.cpp
         src/music.cpp
         include/music.hpp
+        include/scene.hpp
+        include/scene_manager.hpp
+        src/scene_manager.cpp
+        include/infinite_scrolling.hpp
+        src/infinite_scrolling.cpp
 )
 
 if(PLATFORM_APPLE)

@@ -22,9 +22,8 @@ void Music::play() {
     sound_.play();
 }
 
-void Music::stop(State* state = nullptr, float fade_out_duration = 0.0f, bool state_required = false) {
-    if (state_required && state_manager_.get_current_state() == state) fade_out(fade_out_duration);
-    else if (state_required == false) fade_out(fade_out_duration);
+void Music::stop(float fade_out_duration = 0.0f) {
+    fade_out(fade_out_duration);
 }
 
 void Music::fade_out(float duration) {

@@ -1,0 +1,11 @@
+_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/src/SFML/Audio/SoundSource.cpp \
+ /usr/include/stdc-predef.h \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/include/SFML/Audio/SoundSource.hpp \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/include/SFML/Audio/AlResource.hpp \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/sarthak/Documents/TAEV2-Client/build/_deps/sfml-src/src/SFML/Audio/ALCheck.hpp \
+ /usr/include/AL/al.h /usr/include/AL/alc.h
